@@ -23,7 +23,22 @@ The goal was to automate application deployment from code changes to a live appl
 
 ## Project Workflow
 
-Developer → GitHub Repository → GitHub Actions → Docker Build → DockerHub Push → AWS EC2 Deployment → Live Application
+### Current CI/CD Workflow
+
+Developer → GitHub → GitHub Actions → Docker Build → DockerHub Push
+
+### Previous AWS Deployment
+
+Terraform → AWS EC2 Provisioning → SSH Connection → Flask Application
+
+## Current Project Status
+
+- GitHub Actions successfully builds and pushes the Docker image to Docker Hub.
+- Terraform was used to provision AWS infrastructure.
+- The Flask application was previously deployed and tested successfully on AWS EC2.
+- Automatic EC2 deployment is currently disabled in the GitHub Actions workflow.
+- The EC2 application is not currently maintained as a live service.
+
 
 ---
 
