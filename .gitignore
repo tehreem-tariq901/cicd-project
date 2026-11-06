@@ -3,3 +3,24 @@ venv/
 terraform/.terraform/
 terraform/*.tfstate
 terraform/*.tfstate.backup
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Terraform sensitive files
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+
+# Private keys and credentials
+*.pem
+*.key
+*.csv
+
+# Python cache
+__pycache__/
+*.pyc
