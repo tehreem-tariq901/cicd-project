@@ -2,9 +2,7 @@
 
 ## Project Overview
 
-This project demonstrates an end-to-end CI/CD pipeline using Flask, Docker, DockerHub, GitHub Actions, Terraform, and AWS EC2.
-
-The goal was to automate application deployment from code changes to a live application running on AWS.
+This project automates Docker image building and publishing through GitHub Actions. AWS infrastructure was provisioned using Terraform, and the Flask application was previously deployed and tested on AWS EC2.
 
 ---
 
@@ -44,11 +42,11 @@ Terraform → AWS EC2 Provisioning → SSH Connection → Flask Application
 
 ## Features
 
-* Dockerized Flask application
-* Infrastructure provisioning using Terraform
-* Automated CI/CD pipeline using GitHub Actions
-* Application deployment on AWS EC2
-* Automated deployment using DockerHub
+- Dockerized Flask application
+- Infrastructure provisioning using Terraform
+- Automated CI/CD workflow using GitHub Actions
+- Previous application deployment on Terraform-provisioned AWS EC2 (automatic deployment currently disabled)
+- Automated Docker image build and push to Docker Hub
 
 ---
 
