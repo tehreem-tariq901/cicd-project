@@ -77,7 +77,25 @@ http://localhost:5000
 
 ## Screenshots
 
-Project screenshots are available inside the `screenshots` folder.
+
+### 1. CI/CD Pipeline Execution
+![CI/CD Pipeline](screenshots/CI-CD%20Pipeline%20run%20Successfully.png)
+
+### 2. DockerHub Image Push
+![DockerHub](screenshots/DockerHub%20repository%20shows%20pushed%20image.png)
+
+### 3. Terraform Apply
+![Terraform Apply](screenshots/Terraform%20apply.png)
+
+### 4. EC2 Instance Creation
+![EC2 Instance](screenshots/Instance%20created%20successfully%20using%20terraform.png)
+
+### 5. EC2 SSH Connection
+![EC2 SSH](screenshots/Ec2%20successfully%20connected%20with%20terminal%20using%20SSH.png)
+
+### 6. Application Running on EC2
+![Flask Application](screenshots/Browser%20showing%20app%20using%20EC2%20public%20IP.png)
+
 
 ---
 
