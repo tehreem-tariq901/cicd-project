@@ -37,7 +37,6 @@ Developer → GitHub Repository → GitHub Actions → Docker Build → DockerHu
 
 ---
 
-
 ## Run Locally
 
 ### Prerequisites
@@ -46,31 +45,33 @@ Developer → GitHub Repository → GitHub Actions → Docker Build → DockerHu
 
 ### Steps
 
-1. Clone the repository:
+**1. Clone the repository**
 
-   git clone https://github.com/tehreem-tariq901/cicd-project.git
+```bash
+git clone https://github.com/tehreem-tariq901/cicd-project.git
+```
 
-2. Navigate to the project:
+**2. Navigate to the project**
 
-   cd cicd-project
+```bash
+cd cicd-project
+```
 
-3. Build the Docker image:
+**3. Build the Docker image**
 
-   docker build -t cicd-app .
+```bash
+docker build -t cicd-app .
+```
 
-4. Run the container:
+**4. Run the container**
 
-   docker run -d --name cicd-app -p 5000:5000 cicd-app
+```bash
+docker run -d --name cicd-app -p 5000:5000 cicd-app
+```
 
-5. Open the application:
+**5. Open the application**
 
-   http://localhost:5000
-
-## AWS Deployment Status
-
-The application was deployed and tested on AWS EC2.
-
-The EC2 instance is stopped when not in use to avoid unnecessary AWS compute costs. Therefore, the application is not continuously accessible.
+http://localhost:5000
 
 ---
 
